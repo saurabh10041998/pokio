@@ -13,15 +13,16 @@ For now to compile and run particular example Run
 
 ```bash
 
-cargo run --bin <example-name>
+cargo run --bin <example-name> [--] [<example-args>]
 ```
 
-You can Refer the examples list from below
+You can Refer the example list and  example command line argument (if any) from below table
 
 
 Examples added
 -----
 
-| Example name | Description |
-|--------------|:------------:|
-| chat |  Chat server room demo |
+| Example name | Description | Example Args |
+|--------------|:------------:|:------------:|
+| chat |  Chat server room demo | No arguments
+| connect | tcp and udp connect demo | for udp ```-udp <sock-addr>``` and <br/> for tcp ```<sock-addr>```|
