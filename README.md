@@ -26,3 +26,4 @@ Examples added
 |--------------|:------------:|:------------:|
 | chat |  Chat server room demo | No arguments
 | connect | tcp and udp connect demo | for udp ```-udp <sock-addr>``` and <br/> for tcp ```<sock-addr>```|
+| custom-executor | Custom executor example | No arguments | 
